@@ -7,8 +7,13 @@ packages <- function(x){
     require(x,character.only=TRUE)
   }
 }
-packages(rCharts)
 packages(plyr)
+if (! ("Rtools" %in% rownames(installed.packages()))) { install.packages("Rtools") }
+if (! ("devtools" %in% rownames(installed.packages()))) { install.packages("devtools") }
+if (! ("rCharts" %in% rownames(installed.packages()))) { install_github('ramnathv/rCharts') }
+library(rCharts)
+
+
 
 hist.df2<-modelerData
 hist.df2$%%longitudeField%%<-as.numeric(hist.df2$%%longitudeField%%)
