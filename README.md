@@ -16,8 +16,8 @@ Requirements
 
 - The first time you run this extension, an installer for RTools will open
 - This is a larger install process than a normal R package.  Click next through each screen.  You may be presented with an option for which version to download.    
-  - ###### Choose Rtools215.exe if you are using Modeler 16
-  - ###### Choose Rtools31.exe if you are using Modeler 17 
+  - Choose Rtools215.exe if you are using Modeler 16
+  - Choose Rtools31.exe if you are using Modeler 17 
   
   ![Install](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Web-HeatMaps/master/Screenshot/RtoolsInstall.png)
 
@@ -29,11 +29,14 @@ Requirements
 ---
 R Packages used
 ----
+
 The R packages will be installed the first time the node is used as long as an Internet connection is available.
+
 - [plyr](4)
 - [rjson](9)
 - [installr](10)
 - [RTools](11)
+
 ---
 License
 ----
