@@ -8,12 +8,15 @@ packages <- function(x){
   }
 }
 packages(plyr)
-if (! ("Rtools" %in% rownames(installed.packages()))) { install.packages("Rtools") }
+packages(rjson)
+packages(installr)
+
+install.Rtools(choose_version = FALSE, check = TRUE, use_GUI = TRUE,
+               page_with_download_url = "http://cran.r-project.org/bin/windows/Rtools/")
 if (! ("devtools" %in% rownames(installed.packages()))) { install.packages("devtools") }
+library(devtools)
 if (! ("rCharts" %in% rownames(installed.packages()))) { install_github('ramnathv/rCharts') }
 library(rCharts)
-
-
 
 hist.df2<-modelerData
 hist.df2$%%longitudeField%%<-as.numeric(hist.df2$%%longitudeField%%)
