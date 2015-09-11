@@ -9,7 +9,7 @@ This node allows you to create a heatmap that is placed over a map of your choic
 Requirements
 ----
 - IBM SPSS Modeler v16 or later
-- ‘R Essentials for SPSS Modeler’ plugin: [Download here](7)
+- ‘R Essentials for SPSS Modeler’ plugin: [Download here][7]
 -  R 2.15.x or R 3.1
 
 ###### This extension requires RTools to be installed.  This is a larger install than a normal R package.  
@@ -22,7 +22,7 @@ Requirements
   ![Install](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Web-HeatMaps/master/Screenshot/RtoolsInstall.png)
 
 ----
-1. Download the extension: [Download](3) 
+1. Download the extension: [Download][3] 
 2. Close IBM SPSS Modeler. Save the .cfe file in the CDB directory, located by default on Windows in "C:\ProgramData\IBM\SPSS\Modeler\16\CDB" or under your IBM SPSS Modeler installation directory.
 3. Restart IBM SPSS Modeler, the node will now appear in the Output palette.
 
@@ -32,10 +32,10 @@ R Packages used
 
 The R packages will be installed the first time the node is used as long as an Internet connection is available.
 
-- [plyr](4)
-- [rjson](9)
-- [installr](10)
-- [RTools](11)
+- [plyr][4]
+- [rjson][9]
+- [installr][10]
+- [RTools][11]
 
 ---
 License
