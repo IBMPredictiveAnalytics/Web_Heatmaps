@@ -1,4 +1,4 @@
-# Web-HeatMaps
+# Web_HeatMaps
 ###Create interactive heatmaps using different Esri Basemaps
 
 This node allows you to create a heatmap that is placed over a map of your choice.  The extension comes with the option of 25 different types of base maps.  The only input data needed to create the heat map is the longitude and latitude for the points of interest.  
